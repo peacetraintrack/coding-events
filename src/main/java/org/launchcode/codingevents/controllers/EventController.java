@@ -23,6 +23,7 @@ public class EventController {
         events.add("Apple WWDC");
         events.add("SpringOne Platform");
         model.addAttribute("events", events);
+//        practicing commit
         return "events/index";
     }
 
